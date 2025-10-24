@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">WORD-----------KHO</header>
+      <header className="App-header">📚WORD-KHO📚</header>
       <main>
         <Dictionary />
       </main>

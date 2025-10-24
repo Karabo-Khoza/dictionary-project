@@ -2,3 +2,37 @@
   font-family: Arial, sans-serif;
   margin: 20px;
 }
+
+.Dictionary .Diction {
+  background-color: #a2a8d3;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.Dictionary .Diction .form-control {
+  border: 1px solid #113f67;
+}
+
+.Dictionary .Diction .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(17, 63, 103, 0.4);
+  border-color: #113f67;
+}
+
+.Dictionary .Diction .btn {
+  background-color: #113f67;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Dictionary .Diction .btn:hover {
+  background-color: #0e2e4a;
+  color: white;
+}
+
+.Dictionary .Diction form small {
+  display: block;
+  color: #f0f0f0;
+}

@@ -1,0 +1,24 @@
+.Meaning {
+  margin-top: 20px;
+}
+
+.Meaning .info-section {
+  background-color: #142d4c;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+.Meaning h3 {
+  color: white;
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.Meaning h5 {
+  font-size: 20px;
+}
+
+.Meaning p {
+  color: #9fd3c7;
+}
