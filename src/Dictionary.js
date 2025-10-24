@@ -1,16 +1,19 @@
 import React, { useState } from "react";
+import Results from "./Results";
 import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState("sunset");
+  const [results, setResults] = useState({});
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
   }
 
   function handleResponse(response) {
-    console.log(response.data);
+    console.log(response.data.meanings[0].definition);
+    setResults(response.data);
   }
 
   function search(event) {
@@ -32,6 +35,7 @@ export default function Dictionary() {
       <p>Suggested words to try:</p>
       <p>sunset, forest, ocean, love, happiness</p>
       <h1>{keyword}</h1>
+      <Results results={results} />
     </div>
   );
 }
