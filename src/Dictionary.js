@@ -22,6 +22,7 @@ export default function Dictionary() {
       </form>
       <p>Suggested words to try:</p>
       <p>sunset, forest, ocean, love, happiness</p>
+      <h1>{keyword}</h1>
     </div>
   );
 }
